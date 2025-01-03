@@ -1,0 +1,217 @@
+ body{
+     margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  background-position: absolute;
+  display: grid;
+  align-items: center;
+ }
+ .social-media{
+    text-align: center;
+    justify-content: space-around;
+    margin-top: auto;
+     background-color: rgb(100, 149, 237);
+      display: grid;
+     width: 350px;
+     
+    box-shadow: 04px 6px rgba(100, 149, 237, 0.1)
+    
+ }
+.your-section{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 350px;
+      display: grid;
+    
+    padding: 20x;
+     
+}
+.maintain{
+    padding: 20px;
+    background-color: rgb(243, 156, 18);
+    text-align: center;
+    color: #fff;
+    width: 350px;
+     display: grid;
+    
+    margin-top: 15px;
+     margin-bottom: 10px;
+     
+
+}
+.white-background { 
+    background-color: whitesmoke; /* Grey background */
+    padding: 20px; /* Space inside the grey background */
+    border-radius: 8px; /* Optional: rounded corners */
+    color: white; /* Text color */
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    
+}
+.white-background h3{
+    background-color: plum;
+    display: block;
+    border: 2px solid plum;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 5px;
+    position: relative;
+    
+}
+
+.schedule-social-media{
+    background-color: rgb(233, 216, 253);
+      padding: 20px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 04px 6px rgba(233, 216, 253, 0.1);
+     display: grid;
+}
+.schedule-social-media h1 {
+    text-align: center;
+
+}
+.schedule-social{
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 04px 6px rgba(255, 255, 255, 0.1);
+
+}
+  .chart-header{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  .chart-header.active-day{
+    color: #ff6161;
+    font-weight: bold;
+
+  }.bar{
+    width: 10%;
+    background-color: blue;
+    border-radius: 3px;
+    
+  }
+  .chart{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100px;
+    margin: 10px;
+  }
+  .bar .active{
+     background-color: #5b4db0;
+  }
+.highlight{
+  background-color: #d4f1d0;
+  color: #4caf50;
+  font-size: 0.8rem;
+  border-radius:5px ;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+.Description{
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 15px;
+}
+.grow-followers{
+  background-color: rgb(127, 20, 250);
+  padding: 20px;
+width: 350px;
+text-align: center;
+margin-top: 15px;
+ display: grid;
+}
+.followers{
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 4px;
+  box-shadow: 04px 6px rgba(255, 255, 255, 0.1);
+}
+.active-followers{
+  background-color: rgba(0, 128, 0,0.5 );
+  
+
+}
+.rate{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  width: 350px;
+    display: grid;
+  
+  padding: 20x;
+}
+strong{
+  font-size: xx-large;
+}
+.container{
+background-color: bisque;
+padding: 20px;
+width: 350px;
+text-align: center;
+margin-top: 15px;
+ display: grid;
+ font-size: x-large;
+}
+button{
+  width: 60px;
+
+  background-color: rgb(243, 156, 18);
+
+    
+    border: 2px solid plum;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 5px;
+    
+    align-items: center;
+}
+.highlights{
+   color: blueviolet;
+}
+.content-ai{
+  padding: 20px;
+    background-color: rgb(243, 156, 18);
+    text-align: center;
+    color: black;
+    width: 350px;
+     display: grid;
+    
+    margin-top: 15px;
+     margin-bottom: 10px;
+
+}
+.content-ai-chart{
+  background-color: whitesmoke; /* Grey background */
+  padding: 20px; /* Space inside the grey background */
+  border-radius: 8px; /* Optional: rounded corners */
+  color: black; /* Text color */
+  text-align: left;
+  justify-content: space-around;
+  display: flex;
+
+}
+.charts{
+  width: 60px;
+
+  background-color: white;
+
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 5px;
+  
+  position: relative;
+  
+    
+    margin-left: 5px;
+    
+    
+}
