@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background-color: aliceblue;
+}
+.navbar{
+
+   text-decoration: none;
+margin: 0;
+padding:0 20px;
+display: flex;
+align-items: center;
+}
+.Counter{
+    float: left;
+    list-style-type: none;
+     justify-content: space-between;
+     color: black;
+     font-weight: bold;
+     font-size: xx-large;
+     gap: 30px;
+
+}
+.fa-solid .fa-message{
+    font-size: medium;
+}
+.try-free {
+    margin-left: auto; /* Push to the right */
+}
+
+.try-free button{
+    float: right;
+    background-color: aliceblue;
+    border-radius: 12px;
+    float: right;
+ justify-content: space-between;
+  text-decoration: none;
+}
+
+
+      .try-free button a {
+     
+    padding: 15px;
+    font-weight: bold;
+    color:palevioletred;
+    text-decoration: none;
+    justify-content: space-between;
+      }
+      .try-free button a:hover{
+        color: blue;
+      }   
+
+      
+      .header{
+        text-align: center;
+      }
+      .text button{
+        background-color: orchid;
+        border-radius: 12px ;
+        font-size: medium;
+      }
+      .mine{
+        position: absolute;
+  
+      }
+      .mine-poy{
+   float: right;
+   font-size: medium;
+      }
+      .icon{
+        text-align: center;
+      display:inline;
+      position: absolute;
+      }
+      .highlight{
+        color: red;
+        display: inline;
+      }
+
+strong{
+  bottom: 12px;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  
+}
+button{
+  background-color: orchid;
+  border-radius: 12px ;
+  font-size: medium;
+}
+
+
+.footer-logo{
+  float: left;
+}
+
+
+.footer-container{
+  float: left;
+  color: darkblue;
+}
+@media screen and (max-width: 600px){
+  .column {
+     width: 100%;
+  }
+   
+}
