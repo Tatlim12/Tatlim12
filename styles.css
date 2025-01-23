@@ -1,0 +1,74 @@
+body{
+ margin: 0;
+ padding: 0;
+ justify-content: center;
+ align-items: center;
+  display: flex;
+ background-color: #0a0a0a; ;
+ height: 100vh;
+
+}
+
+.counter{
+    background-color: #111111; 
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+.profile img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    ;
+}
+ h3{
+    font-size:medium;
+    margin: 10px 0;
+    color: #ffff;
+}
+.highlight{
+    color: yellowgreen;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+.discription{
+    font-style: italic;
+    font-size: smaller;
+    text-align: center;
+margin-bottom: 20px;  
+color: #ffff;  
+}
+.link-github{
+    background-color: yellowgreen;
+    font-size:medium;
+ border-radius:12px;
+ width:100%;
+ padding: 8px;
+}
+.link{
+    font-size:medium;
+    border-radius:12px;
+    width:100%; 
+    background-color:#333333;
+    padding: 8px;
+    color: #fff;
+}
+.link-githubb:hover {
+    background-color: #c4f200; /* Slightly darker green on hover */
+  }
+  
+  .names{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .link:hover {
+    background-color: #444444; /* Slightly lighter gray on hover */
+  }
+  
