@@ -1,0 +1,155 @@
+ body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .your-result{
+   background-color:#4a00e0;
+   border-radius: 12px;
+   width:20%;
+   height:80%;
+   color:#fff;
+ }
+ .blue{
+    opacity:0.7;
+    margin-bottom: 20px;
+ }
+ .circle{
+    border-radius:50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+     margin-bottom: 20px;
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
+    color:white;
+    background-color: rgba(38, 50, 92, 0.4);
+
+ }
+ .circle h1{
+    font-weight: bold;
+    font-size:2.7em;
+    margin:0;
+ }
+ .circle span{
+   font-weight: bold;
+   font-size:1em;
+   margin:0;
+ }
+  p{
+   opacity:0.7;
+ }
+ h3{
+   font-weight: bold;
+ }
+ .summary{
+   background-color:white;
+   border-radius: 12px;
+   width:20%;
+   height:80%;
+   color:#000;
+ }
+ .summary h2{
+   font-size: medium;
+   font-weight: bold;
+   margin:0;
+   opacity: 0.8;
+ }
+ .fun button{
+
+  border-radius: 8px;
+  font-size:medium;
+  border-radius:12px;
+  width:100%; 
+
+  padding: 8px;
+  display: flex;
+    flex-direction: column;
+    gap: 2px;
+ }
+ 
+ 
+ 
+ .summary ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.summary li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 1rem;
+  border-bottom: 1px solid #e6e9f4;
+}
+
+.summary li:last-child {
+  border-bottom: none;
+}
+
+.label {
+  font-weight: bold;
+  color:  #ff7a7a;
+}
+.label:hover {
+  background-color:rgba(255, 122, 122, 0.6) ;
+  color:  #ff7a7a;
+}
+
+
+.continue-btn {
+  display:grid;
+  width: 100%;
+  padding: 15px;
+  background-color: #4a00e0;
+  color: #ffffff;
+  text-align: center;
+ align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+.continue-btn:hover {
+  background-color: #555;
+}
+.memo{
+ font-weight: bold;
+    color: #ffbb55;
+}
+.memo:hover{
+ background-color:rgba(255, 187, 85, 0.6) ;
+ color: yellow;
+}
+.Verbal {
+  color: #7fc9a7;
+  font-weight: bold;
+}
+.Verbal:hover {
+  color: #7fc9a7;
+  background-color:rgba(127, 201, 167, 0.6) ;
+}
+.Visual {
+  color: #6b88e6;
+  font-weight: bold;
+}
+.Visual:hover {
+  color: #6b88e6;
+  background-color:rgb(107, 136, 230, 0.6) ;
+}
