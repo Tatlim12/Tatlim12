@@ -1,65 +1,93 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avatar-jessica</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Sneakers</title>
+    <link rel="stylesheet" href="jj.css">
 </head>
 <body>
-  
-     <div class="counter">
-        <div class="profile">
-<img src="avatar-jessica.jpeg" alt=" profile">
-</div>
 
-    <h3>jessica Randall</h3>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <img src="logo.svg" alt="Sneaker Company Logo">
+        </div>
+        <div class="cart">
+            <img src="icon-cart.svg" alt="Cart">
+        </div>
+        <ul>
+            <li><a href="co.html">Collection</a></li>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        
+        <div class="gym">
+            <img src="image-avatar.png" alt="Profile Picture">
+        </div>
+    </nav>
 
-  
-    <p><span class="highlight"> London,United Kingdom </span></p>
- 
- <p class="discription">"Front-end developer and avid reader"</p>
- <div class="names">
-<button class="link-github">Github</button>
-<br>
-<button class="link"> Frontend Mentor</button>
-<br>
-<button class="link">Linkedln</button>
-<br>
-<button class="link">Twitter</button>
-<br>
-<button class="link">instagram</button>
- </div>
+    <!-- Hero Section -->
+    <section class="pic">
+        <img src="image-product-1.jpg" alt="Product Image">
+    </section>
 
+    <!-- Main Product Information -->
+    <div class="Company">
+        <h4>SNEAKER COMPANY</h4>
+         <br>
+         <br>
+        <div class="fg">
+            <h1>Fall Limit Sneakers</h1>
+            <br>
+            <br>
+            <p>These low-profile sneakers are your perfect casual wear companions. 
+                <br> Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+        </div>
+        <div class="money">
+            <h2>$125.00</h2>
+            <h3>50% OFF</h3>
+            <h6><del>$250.00</del></h6>
+        </div>
+    </div>
 
+    <!-- Product Thumbnails -->
+    <div class="images">
+        <img src="image-product-1-thumbnail.jpg" alt="Image 1">
+        <img src="image-product-2-thumbnail.jpg" alt="Image 2">
+        <img src="image-product-3-thumbnail.jpg" alt="Image 3">
+        <img src="image-product-4-thumbnail.jpg" alt="Image 4">
+    </div>
 
+    <!-- Quantity Box & Add to Cart -->
+    <div class="container">
+        <div class="quantity-box">
+            <button onclick="decreaseQuantity()">-</button>
+            <input type="text" id="quantity" value="1" readonly>
+            <button onclick="increaseQuantity()">+</button>
+        </div>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
 
+    <script>
+        // JavaScript to adjust quantity
+        function decreaseQuantity() {
+            let quantity = document.getElementById("quantity");
+            let value = parseInt(quantity.value);
+            if (value > 1) {
+                quantity.value = value - 1;
+            }
+        }
 
-
-
-
-     </div>
-
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        function increaseQuantity() {
+            let quantity = document.getElementById("quantity");
+            let value = parseInt(quantity.value);
+            quantity.value = value + 1;
+        }
+    </script>
 
 </body>
 </html>

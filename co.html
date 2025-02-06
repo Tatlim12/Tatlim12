@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection Page</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .collection-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .collection-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin: 15px;
+            width: 250px;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .collection-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .item-info {
+            padding: 15px;
+        }
+        .item-info h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #333;
+        }
+        .item-info p {
+            color: #777;
+            margin: 10px 0;
+        }
+        .item-info button {
+            background-color: #8B4513;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .item-info button:hover {
+            background-color: #7a3e0c;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Our Collection</h1>
+</header>
+
+<div class="collection-container">
+    <div class="collection-item">
+        <img src="image-product-4-thumbnail.jpg" alt="Collection Item 1">
+        <div class="item-info">
+            <h3>Classic Leather </h3>
+            <p>Timeless leather sneakers designed for comfort and style, perfect for everyday wear.</p>
+            <button>View Details</button>
+        </div>
+    </div>
+    
+    <div class="collection-item">
+        <img src="image-product-3-thumbnail.jpg" alt="Collection Item 2">
+        <div class="item-info">
+            <h3>Sporty Running Shoes</h3>
+            <p>Lightweight and breathable shoes for high performance during your runs or workouts..</p>
+            <button>View Details</button>
+        </div>
+    </div>
+
+    <div class="collection-item">
+        <img src="image-product-1-thumbnail.jpg" alt="Collection Item 3">
+        <div class="item-info">
+            <h3>Casual Slip-Ons</h3>
+            <p>Easy-to-wear slip-on shoes offering comfort and a laid-back style for casual days..</p>
+            <button>View Details</button>
+        </div>
+    </div>
+
+    <div class="collection-item">
+        <img src="image-product-2-thumbnail.jpg" alt="Collection Item 4">
+        <div class="item-info">
+            <h3>Stylish Ankle Boots</h3>
+            <p>Chic ankle boots with a modern design, ideal for dressing up or down.</p>
+            <button>View Details</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

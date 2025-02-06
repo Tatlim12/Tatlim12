@@ -1,0 +1,291 @@
+
+:root{
+    --background-color:#ffff;
+}
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color) ;
+     display:grid;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    height:100dvh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+    
+}
+.sneakes img{
+    float: inline-start;
+    font-size: medium;
+}
+ul{
+    list-style-type: none;
+    text-decoration: none;
+
+    align-items: center;
+    font-weight: bold;
+    font-size: x-large;
+     display:inline-flex;
+     gap: 16px;
+     justify-content: space-between;
+
+}
+li{
+    list-style-type: none;
+    text-decoration: none;   
+}
+li a{
+    list-style-type: none;
+    text-decoration: none; 
+    color: #000; 
+    display: inline;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+li a:hover{
+    
+    border-bottom:2px solid orange;
+    
+}
+.pic img{
+    float: left;
+    border-radius:12px;
+    display:inline-flex;
+    
+
+}
+.main{
+    display:flex;
+    float: right;
+    padding: 10px;;
+}
+.main img{
+    float: right;
+   
+    display:flex;
+}
+.gym{
+    display:flex;
+    float: right;
+    font-size: 4px;
+    width: 40px;
+    height: 40px;
+}
+.gym img{
+    display:flex;
+    float: right;
+    font-size: 4px;
+    border-radius: 20%;
+    
+   
+}
+.pic img{
+    float: left;
+    display: grid;
+    width:370px;
+    height:400px;
+}
+.Company{
+    
+    display:flex;
+   float: right;
+    align-items: center;
+    justify-content: center;
+     
+    font-weight: bold;
+
+}
+.Company h4{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    padding: 40px;
+    font-weight: bold;
+    float: left;
+    
+    display:grid;
+    color: gray;
+}
+
+
+.money {
+    display:inline-flex;
+    align-items: center;
+    gap: 10px;
+float: inline-start;  
+}
+
+.money h2{
+    font-weight: bold;
+    font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 5px;
+  bottom: 50%;
+ 
+}
+.money h3{
+    font-weight: bold;
+    font-size:34px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  
+  
+}
+.money h6{
+    font-size: 18px;
+     font-weight: bold;
+    text-decoration: line-through;
+    color: gray;
+    
+ 
+}
+ .fg{
+    display:inline;
+    float: right;
+    justify-content: center;
+    align-items: center;
+ }
+ .fg p{
+    
+        font-style: oblique;
+        max-width: 400px;
+        float: left;
+        color: grey;
+        font-size:medium;
+        display:flex;
+ }
+ .fg h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    float: right;
+    top: auto;
+    display:flex;
+ }
+  .money h3{
+    background:black;
+    color: white;
+    padding: 5px 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    float: right;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    float: right;
+}
+
+ button.add-to-cart {
+  background-color: orange;
+    color: white;
+     width:40%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    padding:10px 16px;
+    float: right;
+    display: grid;
+    
+}
+ button.add-to-cart:hover{
+    background-color: rgba(133, 98, 8, 0.879);
+}
+.images{
+    display:flex;
+    width:35%;
+    height:43%;
+    gap: 10px;
+    justify-content: space-between;
+    border-radius:12px;
+    float: right;
+    display: inline-flex;
+    bottom: 6px;
+}
+.images img{
+    
+    
+    border-radius:6px;
+}
+
+.images img:hover{
+    background-color: gray;
+    opacity: 0.5;
+}      
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  .images, .pic {
+    animation: bounce 4s infinite;
+  }
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .Company, .h4,.h1,.p {
+    animation: slideIn 5s infinite;
+  }
+ 
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  ul,li  .sneakes {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid black; 
+    font-size: 24px;
+    font-family: monospace;
+    width: 0;
+    animation: typing 3s steps(20, end) forwards, blink 0.7s infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.1); opacity: 0.7; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+  
+  .gym {
+    animation: pulse 1.5s infinite;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+  }
+  
