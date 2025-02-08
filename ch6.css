@@ -1,0 +1,352 @@
+ :root{
+    --background-color:#ffff;
+    --color:gray;
+    --head:black;
+ }
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100dvh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:var(--background-color);
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+.header h1{
+    font-weight: bold;
+    color:var(--head);
+    font-size: xx-large;
+}
+.header p{
+    color:var(--color) ;
+    font-style: italic;
+}
+.header img{
+    width: 70px;
+    height: 75px;
+}
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+.green{
+   border-radius: 12px;
+   background-color:  lightseagreen;
+   color: #ffff;
+   justify-content:center;
+   align-items: center;
+   
+}
+.blue{
+    border-radius: 12px;
+    background-color:  rgb(98, 110, 215);
+    color: #ffff;
+    justify-content: space-between;
+
+  
+}
+.meddle{
+     display:grid;
+    text-align: center;
+    margin: 5px;
+    padding: 8px;
+    
+
+}
+.meddle h2{
+    font-weight: bold;
+    font-style: oblique;
+    font-size: x-large
+}
+.meddle p{
+    color:var(--color) ;
+    font-style: italic;
+    
+}
+.computer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.computer img {
+    width: 50%;
+    max-width: 500px;
+}
+.computer h4 {
+    display: grid;
+    color: var(--head);
+    position:relative;
+    font-display: grid;
+    
+    flex-basis: inline-end;
+}
+.computer p{
+    color: var(--color);
+    font-style: italic;
+    font-size: 13px;
+}
+.access{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+.access h3{
+    color: var(--head);
+    align-items: center;
+    text-align: center;
+    display: grid;
+}
+.access p{
+    color: var(--color);
+    align-items: center;
+    text-align: center;
+    display: grid;
+    font-style: italic;
+}
+.access img{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    width:80% ;
+    height: 80%;
+}
+.super{
+    display:inline;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.greens,
+.blues {
+    border-radius: 12px;
+    padding: 20px 14px;
+    max-width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+   
+    display:inline-flex;
+}
+
+.greens {
+    background-color: lightseagreen;
+    color: #ffff;
+      justify-items: center;
+}
+
+.blues {
+    background-color: rgb(98, 110, 215);
+    color: #ffff;
+}
+
+
+ 
+
+ 
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.logo-container img {
+    max-width: 120px; /* Adjust size */
+    filter: grayscale(100%) opacity(0.6); /* Light gray effect */
+    transition: opacity 0.3s;
+}
+
+.logo-container img:hover {
+    opacity: 1; /* Restore color on hover */
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.sub-text {
+    font-size: 1.1rem;
+    color: #777;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.feature {
+    width: 30%;
+    text-align: center;
+}
+.feature p{
+    color:var(--color) ;
+    font-style: italic;
+}
+
+.feature img {
+    width: 40px; /* Replace with actual icon */
+}
+
+.ai-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color:var(--color);
+}
+.ios{
+    justify-content: center;
+    align-items: center;
+}
+.ios p{
+    font-style: italic;
+    color: var(--color);
+}
+.footer {
+    background-color: var(--color);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left img {
+    width: 40px; /* Logo size */
+    margin-right: 10px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+    color: #000;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.footer-links a:hover {
+    color: #0aa79d;
+}
+
+.footer-right {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-right img {
+    width: 20px; /* Social media icons */
+}
+.Quick{
+    text-align: left;
+    display:grid;
+    flex-direction: column;
+}
+
+.Quick {
+    margin-bottom: 20px;
+}
+
+.Quick h4{
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.Quick p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+@keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .computer img, .Quick h4,.Quick p {
+    animation: slideIn 5s infinite;
+  }
+  
+
+.green, .blue:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 123, 255, 0.3);
+}
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.access img{
+    opacity: 0;
+    animation: slideUp 3s infinite forwards;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.feature h3 {
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid black;
+    width: 0;
+    animation: typing 3s steps(30) forwards, blink 0.7s infinite;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
