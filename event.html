@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .countdown {
+            font-size: 24px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        .register-form input, .register-form button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 50%;
+        }
+        .register-form button {
+            background: #28a745;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+        .register-form button:hover {
+            background:grey;
+        }
+        ul{
+    list-style-type: none;
+   
+   
+    text-align: right;
+    justify-content: space-between;
+     gap:20px;
+
+}
+li{
+    margin: 0 17px;
+    display: inline;
+    gap: 25%;
+    color:#000 ;
+    justify-content: space-between;
+    gap:40%;
+}
+li a{
+    text-decoration: none;
+    display: inline;
+    gap:40%;
+    color:#000;
+    justify-content: space-between;
+}
+li a:hover{
+    color: chartreuse;
+}
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="ch7.html">Event</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="support.htm">Support</a></li>
+    </ul>
+       
+      
+
+
+
+    <div class="container">
+        <h1>Upcoming Event</h1>
+        <p><strong>Date:</strong> March 15, 2025</p>
+        <p><strong>Location:</strong> Muqdisho</p>
+        <div class="countdown" id="countdown"></div>
+        <h2>Register Now</h2>
+        <form class="register-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script>
+        function updateCountdown() {
+            const eventDate = new Date("March 15, 2025").getTime();
+            const now = new Date().getTime();
+            const diff = eventDate - now;
+
+            if (diff > 0) {
+                const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+                document.getElementById("countdown").innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+            } else {
+                document.getElementById("countdown").innerHTML = "Event has started!";
+            }
+        }
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+    </script>
+</body>
+</html>
