@@ -1,0 +1,317 @@
+ body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items:center ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     width:100%;
+     height:100dvh;
+    background-color: white;
+   
+ }
+  .Desserts{
+    text-align: left;
+    margin-top: auto;
+     left:4px 7px ;
+  }
+  .Desserts h1{
+   font-style: normal;
+   font-weight: bold;
+
+  }
+  .Desser{
+  
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+  }
+  .sawir{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  .sawir img{
+    max-width: 40%;
+    border-radius: 8px;
+  }
+  .sawir button{
+   
+   border-radius: 12px;
+   background-color: whitesmoke;
+     border: 2px solid orange;
+     width:50%;
+     height: auto;
+     text-align: center;
+     align-items: center;
+  }
+  .sawir h3{
+   font-weight: lighter;
+   font-size: 1rem;
+  }
+  .sawir p{
+   color: orange;
+   font-weight: bold;
+  }
+  .vanila{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  .vanila img{
+
+    max-width: 40%;
+    border-radius: 8px;
+  }
+
+  .vanila button{
+   border-radius: 12px;
+   background-color: orange;
+     border:none;
+     width:40%;
+     height:auto;
+     text-align: center;
+     align-items: center;
+  }
+  .vanila h3{
+   font-weight: lighter;
+   font-size: 1rem;
+  }
+  .vanila p{
+   color: orange;
+   font-weight: bold;
+  }
+  .highlightss span{
+    color: #fff;
+  }
+
+  .macaron{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .macaron img{
+    max-width: 40%;
+    border-radius: 8px;
+  }
+  .macaron h3{
+   font-weight: lighter;
+   font-size: 1rem;
+  }
+  .macaron p{
+   color: orange;
+   font-weight: bold;
+  
+  }
+  .macaron  button{
+   border-radius: 12px;
+   background-color: whitesmoke;
+     border: 2px solid orange;
+     width:50%;
+     height: auto;
+     text-align: center;
+     align-items: center;
+  }
+  #cart{
+    max-width:40%;
+    height:auto;
+  
+   display:grid;
+   
+   text-align: right;
+   
+  
+   padding: 15px;
+   background: #fff;
+   border-radius: 8px;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+   .hik{
+    color: orange;
+    font-weight: bold;
+    font-size: 1.2rem ;
+   }
+    #cart button{
+      
+        background: #8B4513;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 100%;
+        margin-top: 10px;
+    }
+     .car{
+      color: #000;
+      font-style: oblique;
+     }
+     .your-cart p{
+      color: grey;
+      font-style: italic;
+     }
+     .macarooo{
+      display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+     }
+     .classic img{
+      
+      max-width: 40%;
+    border-radius: 8px;
+     }
+     .classic h3{
+      font-weight: lighter;
+      font-size: 1rem;
+     }
+     .classic p{
+      color: orange;
+      font-weight: bold;
+     
+     }
+     .classic button{
+      border-radius: 12px;
+      background-color: whitesmoke;
+        border: 2px solid orange;
+        width:30%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+     }
+    .pistachio{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+     .pistachio img {
+      max-width: 40%;
+    border-radius: 8px;
+     }
+     .pistachio h3{
+      font-weight: lighter;
+      font-size: 1rem;
+     }
+     .pistachio p{
+      color: orange;
+      font-weight: bold
+     }
+     .pistachio button{
+      border-radius: 12px;
+      background-color: whitesmoke;
+        border: 2px solid orange;
+        width:30%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+     }
+     .lemon{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+     }
+      .lemon img{
+        max-width: 40%;
+        border-radius: 8px; 
+      }
+      .lemon h3{
+        font-weight: lighter;
+        font-size: 1rem;
+      }
+      .lemon p{
+        color: orange;
+        font-weight: bold
+      }
+      .lemon button{
+        border-radius: 12px;
+        background-color: whitesmoke;
+          border: 2px solid orange;
+          width:30%;
+          height: auto;
+          text-align: center;
+          align-items: center;
+      }
+      .red{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+      }
+      .lem{
+        display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      }
+      .lem img{
+        max-width: 40%;
+        border-radius: 8px;   
+      }
+      .lem h3{
+        font-weight: lighter;
+        font-size: 1rem;
+      }
+      .lem p{
+        color: orange;
+        font-weight: bold
+      }
+      .lem button{
+        border-radius: 12px;
+        background-color: whitesmoke;
+          border: 2px solid orange;
+          width:30%;
+          height: auto;
+          text-align: center;
+          align-items: center;
+      }
+      .saltedd{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+      }
+      .saltedd img{
+        max-width: 40%;
+        border-radius: 8px; 
+      }
+      .saltedd h3{
+        font-weight: lighter;
+        font-size: 1rem;
+      }
+      .saltedd p{
+        color: orange;
+        font-weight: bold
+      }
+      .saltedd button{
+        border-radius: 12px;
+        background-color: whitesmoke;
+          border: 2px solid orange;
+          width:30%;
+          height: auto;
+          text-align: center;
+          align-items: center;
+      }
+      .panna{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+      }
+      .panna img{
+        max-width: 40%;
+        border-radius: 8px; 
+      }
+      .panna h3{
+        font-weight: lighter;
+        font-size: 1rem;
+      }
+      .panna p{
+        color: orange;
+        font-weight: bold
+      }
+      .panna button{
+        border-radius: 12px;
+        background-color: whitesmoke;
+          border: 2px solid orange;
+          width:30%;
+          height: auto;
+          text-align: center;
+          align-items: center;  
+      }
